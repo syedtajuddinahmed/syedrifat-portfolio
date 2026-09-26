@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Syed Tajuddin Ahmed Rifat | SyedRifat — Full Stack Developer in Training
+    </title>
+    <meta
+      name="description"
+      content="Portfolio of Syed Tajuddin Ahmed Rifat (SyedRifat), a Full Stack Developer in Training focused on modern frontend development."
+    />
+
+    <!-- EDIT HERE: Favicon (SR monogram) -->
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Lucide Icons -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lucide-static/0.400.0/umd/lucide.min.js"
+      defer
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- =========================
+       NAVIGATION
+  ========================= -->
+    <header class="navbar" id="navbar">
+      <div class="container navbar__inner">
+        <a href="#home" class="navbar__brand" aria-label="SyedRifat home">
+          <!-- EDIT HERE: Primary logo (horizontal lockup) -->
+          <img
+            src="assets/logo.png"
+            alt="SyedRifat logo"
+            class="navbar__logo navbar__logo--full"
+          />
+          <img
+            src="assets/logo-sr.png"
+            alt="SR"
+            class="navbar__logo navbar__logo--mono"
+          />
+        </a>
+
+        <nav class="navbar__links" id="navLinks" aria-label="Primary">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#journey" class="nav-link">Journey</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="navbar__actions">
+          <a href="#contact" class="btn btn--accent btn--sm">Let's Connect</a>
+          <button
+            class="navbar__toggle"
+            id="navToggle"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="navLinks"
+          >
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="home">
+      <!-- =========================
+         HERO SECTION
+    ========================= -->
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__content reveal">
+            <p class="eyebrow">Hello, I'm</p>
+
+            <h1 class="hero__title">
+              Syed Tajuddin Ahmed <span class="accent-text">Rifat</span>
+            </h1>
+            <p class="hero__role">Full Stack Developer in Training</p>
+
+            <!-- EDIT HERE: Change your intro/bio -->
+            <p class="hero__desc">
+              Aspiring Full Stack Developer with a strong foundation in Frontend
+              Development, currently expanding my expertise in Backend
+              Development and AI Automation. I build modern, responsive, and
+              user-friendly web experiences while exploring smarter ways to
+              integrate AI into software solutions.
+            </p>
+
+            <div class="hero__actions">
+              <a href="#projects" class="btn btn--accent">View My Projects</a>
+              <!-- EDIT HERE: Link this to your actual CV/resume file -->
+              <a href="#" class="btn btn--outline" download>Download CV</a>
+            </div>
+
+            <div class="hero__socials">
+              <!-- EDIT HERE: Add your GitHub profile URL -->
+              <a
+                href="#"
+                class="social-icon"
+                aria-label="GitHub"
+                target="_blank"
+                rel="noopener"
+                ><i data-lucide="github"></i
+              ></a>
+              <!-- EDIT HERE: Add your LinkedIn profile URL -->
+              <a
+                href="#"
+                class="social-icon"
+                aria-label="LinkedIn"
+                target="_blank"
+                rel="noopener"
+                ><i data-lucide="linkedin"></i
+              ></a>
+              <!-- EDIT HERE: Add your email address -->
+              <a
+                href="mailto:youremail@example.com"
+                class="social-icon"
+                aria-label="Email"
+                ><i data-lucide="mail"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="hero__media reveal">
+            <div class="hero__photo-frame">
+              <img
+                src="./assets/hero.png"
+                alt="Placeholder — replace with a professional photo of Syed Tajuddin Ahmed Rifat"
+                class="hero__photo"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+         ABOUT SECTION
+    ========================= -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title">About Me</h2>
+          </div>
+
+          <div class="about__grid">
+            <!-- EDIT HERE: Change your about text -->
+            <div class="about__text reveal">
+              <p>
+                I'm a software engineering learner with a strong focus on web
+                development. My work centers on learning and applying modern
+                frontend technologies — from the fundamentals of HTML, CSS and
+                JavaScript to building responsive, user-friendly interfaces.
+              </p>
+              <p>
+                I'm passionate about programming and enjoy building real-world
+                projects that help me apply what I learn in practical ways.
+                Every project is a step toward my goal of becoming a
+                professional full stack developer, and I'm continuously
+                improving my programming and software development skills through
+                consistent practice.
+              </p>
+            </div>
+
+            <div class="about__points reveal">
+              <div class="point-card">
+                <i data-lucide="code-2"></i>
+                <p>Software engineering learner focused on web development</p>
+              </div>
+              <div class="point-card">
+                <i data-lucide="layers"></i>
+                <p>Learning modern frontend technologies</p>
+              </div>
+              <div class="point-card">
+                <i data-lucide="hammer"></i>
+                <p>Interested in building real-world projects</p>
+              </div>
+              <div class="point-card">
+                <i data-lucide="target"></i>
+                <p>
+                  Working toward becoming a professional full stack developer
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+         SKILLS SECTION
+    ========================= -->
+      <section id="skills" class="section section--alt">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title">Skills</h2>
+          </div>
+
+          <div class="skills__groups">
+            <div class="skills__group reveal">
+              <h3 class="skills__group-title">Current Skills</h3>
+              <!-- EDIT HERE: Add/remove skill cards -->
+              <div class="skills__grid">
+                <div class="skill-card">
+                  <i data-lucide="file-code"></i><span>HTML5</span>
+                </div>
+                <div class="skill-card">
+                  <i data-lucide="paintbrush"></i><span>CSS3</span>
+                </div>
+                <div class="skill-card">
+                  <i data-lucide="braces"></i><span>JavaScript</span>
+                </div>
+                <div class="skill-card">
+                  <i data-lucide="wind"></i><span>Tailwind CSS</span>
+                </div>
+                <div class="skill-card">
+                  <i data-lucide="git-branch"></i><span>Git</span>
+                </div>
+                <div class="skill-card">
+                  <i data-lucide="github"></i><span>GitHub</span>
+                </div>
+                <div class="skill-card">
+                  <i data-lucide="terminal-square"></i><span>VS Code</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills__group reveal">
+              <h3 class="skills__group-title">Currently Learning</h3>
+              <div class="skills__grid">
+                <div class="skill-card skill-card--learning">
+                  <i data-lucide="atom"></i><span>React.js</span>
+                </div>
+                <div class="skill-card skill-card--learning">
+                  <i data-lucide="sparkles"></i><span>Modern JavaScript</span>
+                </div>
+                <div class="skill-card skill-card--learning">
+                  <i data-lucide="layout-panel-left"></i
+                  ><span>Frontend Development</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills__group reveal">
+              <h3 class="skills__group-title">Exploring</h3>
+              <div class="skills__grid">
+                <div class="skill-card skill-card--exploring">
+                  <i data-lucide="compass"></i><span>Software Engineering</span>
+                </div>
+                <div class="skill-card skill-card--exploring">
+                  <i data-lucide="brain-circuit"></i
+                  ><span>AI &amp; Emerging Technologies</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+         PROJECTS SECTION
+    ========================= -->
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title">Featured Projects</h2>
+          </div>
+
+          <!-- EDIT HERE: Duplicate a .project-card to add a new project -->
+          <div class="projects__grid">
+            <article class="project-card reveal">
+              <span class="project-card__number">01</span>
+              <h3 class="project-card__title">Student Result Checker</h3>
+              <p class="project-card__desc">
+                A JavaScript-based project for practicing logic, conditions and
+                user interaction.
+              </p>
+              <div class="project-card__tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-card__links">
+                <!-- EDIT HERE: Add GitHub repository URL here -->
+                <a
+                  href="#"
+                  class="btn btn--outline btn--sm"
+                  target="_blank"
+                  rel="noopener"
+                  ><i data-lucide="github"></i> Code</a
+                >
+                <!-- EDIT HERE: Add live demo URL here -->
+                <a
+                  href="#"
+                  class="btn btn--ghost btn--sm"
+                  target="_blank"
+                  rel="noopener"
+                  ><i data-lucide="external-link"></i> Live Demo</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <span class="project-card__number">02</span>
+              <h3 class="project-card__title">Personal Portfolio Website</h3>
+              <p class="project-card__desc">
+                A responsive personal portfolio showcasing my development
+                journey and projects.
+              </p>
+              <div class="project-card__tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-card__links">
+                <a
+                  href="#"
+                  class="btn btn--outline btn--sm"
+                  target="_blank"
+                  rel="noopener"
+                  ><i data-lucide="github"></i> Code</a
+                >
+                <a
+                  href="#"
+                  class="btn btn--ghost btn--sm"
+                  target="_blank"
+                  rel="noopener"
+                  ><i data-lucide="external-link"></i> Live Demo</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <span class="project-card__number">03</span>
+              <h3 class="project-card__title">E-Commerce UI</h3>
+              <p class="project-card__desc">
+                A modern frontend e-commerce interface focused on layout,
+                responsiveness and user experience.
+              </p>
+              <div class="project-card__tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Tailwind CSS</span>
+              </div>
+              <div class="project-card__links">
+                <a
+                  href="#"
+                  class="btn btn--outline btn--sm"
+                  target="_blank"
+                  rel="noopener"
+                  ><i data-lucide="github"></i> Code</a
+                >
+                <a
+                  href="#"
+                  class="btn btn--ghost btn--sm"
+                  target="_blank"
+                  rel="noopener"
+                  ><i data-lucide="external-link"></i> Live Demo</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <span class="project-card__number">04</span>
+              <h3 class="project-card__title">JavaScript Mini Projects</h3>
+              <p class="project-card__desc">
+                A collection of small JavaScript projects created to improve
+                programming logic and frontend development skills.
+              </p>
+              <div class="project-card__tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-card__links">
+                <a
+                  href="#"
+                  class="btn btn--outline btn--sm"
+                  target="_blank"
+                  rel="noopener"
+                  ><i data-lucide="github"></i> Code</a
+                >
+                <a
+                  href="#"
+                  class="btn btn--ghost btn--sm"
+                  target="_blank"
+                  rel="noopener"
+                  ><i data-lucide="external-link"></i> Live Demo</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+         DEVELOPMENT JOURNEY
+    ========================= -->
+      <section id="journey" class="section section--alt">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title">My Development Journey</h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline__item reveal">
+              <div class="timeline__marker">01</div>
+              <div class="timeline__content">
+                <h3>Web Development</h3>
+                <p>HTML → CSS → Responsive Design</p>
+              </div>
+            </div>
+
+            <div class="timeline__item reveal">
+              <div class="timeline__marker">02</div>
+              <div class="timeline__content">
+                <h3>JavaScript</h3>
+                <p>Programming logic → DOM → Events → Modern JavaScript</p>
+              </div>
+            </div>
+
+            <div class="timeline__item reveal">
+              <div class="timeline__marker">03</div>
+              <div class="timeline__content">
+                <h3>Frontend Development</h3>
+                <p>Tailwind CSS → Modern UI → Responsive Interfaces</p>
+              </div>
+            </div>
+
+            <div class="timeline__item reveal">
+              <div class="timeline__marker">04</div>
+              <div class="timeline__content">
+                <h3>React.js</h3>
+                <p>Components → State → Props → Modern React Development</p>
+              </div>
+            </div>
+
+            <div class="timeline__item timeline__item--future reveal">
+              <div class="timeline__marker timeline__marker--future">
+                <i data-lucide="flag"></i>
+              </div>
+              <div class="timeline__content">
+                <h3>
+                  Full Stack Development
+                  <span class="tag-future">Future Goal</span>
+                </h3>
+                <p>
+                  Backend development → APIs → Databases → Full Stack
+                  Applications
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+         EDUCATION SECTION
+    ========================= -->
+      <section id="education" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title">Education</h2>
+          </div>
+
+          <!-- EDIT HERE: Update your education details -->
+          <div class="education-card reveal">
+            <div class="education-card__icon">
+              <i data-lucide="graduation-cap"></i>
+            </div>
+            <div>
+              <h3 class="education-card__degree">
+                Computer Science / Software Development
+              </h3>
+              <p class="education-card__school">Shonargoan University</p>
+              <p class="education-card__meta">
+                <!-- EDIT HERE: Add year/duration -->
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+         DEVELOPER ACTIVITY
+    ========================= -->
+      <section class="section section--alt">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title">Developer Activity</h2>
+          </div>
+
+          <div class="activity reveal">
+            <div class="activity__cta">
+              <p>Follow my day-to-day work and contributions on GitHub.</p>
+              <!-- EDIT HERE: Add your GitHub profile URL -->
+              <a href="#" class="btn btn--accent" target="_blank" rel="noopener"
+                ><i data-lucide="github"></i> View GitHub Profile</a
+              >
+            </div>
+
+            <div class="activity__placeholder">
+              <i data-lucide="bar-chart-3"></i>
+              <!-- EDIT HERE: Connect a real GitHub stats/contribution embed here -->
+              <p>
+                Repository showcase and contribution activity will appear here
+                once connected to a live GitHub data source.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+         CONTACT SECTION
+    ========================= -->
+      <section id="contact" class="section">
+        <div class="container contact__grid">
+          <div class="reveal">
+            <h2 class="section-title">Let's Build Something Together</h2>
+            <p class="contact__desc">
+              Have a project idea, collaboration opportunity, or simply want to
+              connect? Feel free to reach out.
+            </p>
+
+            <div class="contact__info">
+              <!-- EDIT HERE: Update contact details -->
+              <a href="mailto:youremail@example.com" class="contact__info-item"
+                ><i data-lucide="mail"></i> youremail@example.com</a
+              >
+              <a
+                href="#"
+                class="contact__info-item"
+                target="_blank"
+                rel="noopener"
+                ><i data-lucide="github"></i> github.com/yourusername</a
+              >
+              <a
+                href="#"
+                class="contact__info-item"
+                target="_blank"
+                rel="noopener"
+                ><i data-lucide="linkedin"></i> linkedin.com/in/yourusername</a
+              >
+            </div>
+          </div>
+
+          <form class="contact-form reveal" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+              <span class="form-error" data-error-for="name"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+              <span class="form-error" data-error-for="email"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+              <span class="form-error" data-error-for="message"></span>
+            </div>
+
+            <button type="submit" class="btn btn--accent btn--block">
+              Send Message
+            </button>
+            <p class="form-note" id="formNote">
+              This form is ready for email-service/backend integration.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================
+       FOOTER
+  ========================= -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <img src="assets/logo-sr.png" alt="SyedRifat" class="footer__logo" />
+          <div>
+            <p class="footer__name">SyedRifat</p>
+            <p class="footer__role">Full Stack Developer in Training</p>
+          </div>
+        </div>
+
+        <div class="footer__socials">
+          <!-- EDIT HERE: Match these to the links used in the hero/contact sections -->
+          <a
+            href="#"
+            class="social-icon"
+            aria-label="GitHub"
+            target="_blank"
+            rel="noopener"
+            ><i data-lucide="github"></i
+          ></a>
+          <a
+            href="#"
+            class="social-icon"
+            aria-label="LinkedIn"
+            target="_blank"
+            rel="noopener"
+            ><i data-lucide="linkedin"></i
+          ></a>
+          <a
+            href="mailto:youremail@example.com"
+            class="social-icon"
+            aria-label="Email"
+            ><i data-lucide="mail"></i
+          ></a>
+        </div>
+      </div>
+      <div class="container">
+        <!-- EDIT HERE: Change the copyright year -->
+        <p class="footer__copyright">© 2026 SyedRifat. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
