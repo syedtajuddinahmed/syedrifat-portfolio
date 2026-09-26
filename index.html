@@ -21,6 +21,13 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- Lucide Icons -->
     <script
@@ -37,16 +44,10 @@
     <header class="navbar" id="navbar">
       <div class="container navbar__inner">
         <a href="#home" class="navbar__brand" aria-label="SyedRifat home">
-          <!-- EDIT HERE: Primary logo (horizontal lockup) -->
           <img
             src="assets/logo.png"
             alt="SyedRifat logo"
             class="navbar__logo navbar__logo--full"
-          />
-          <img
-            src="assets/logo-sr.png"
-            alt="SR"
-            class="navbar__logo navbar__logo--mono"
           />
         </a>
 
@@ -107,28 +108,30 @@
             <div class="hero__socials">
               <!-- EDIT HERE: Add your GitHub profile URL -->
               <a
-                href="#"
+                href="https://github.com/syedtajuddinahmed"
                 class="social-icon"
                 aria-label="GitHub"
                 target="_blank"
                 rel="noopener"
-                ><i data-lucide="github"></i
-              ></a>
-              <!-- EDIT HERE: Add your LinkedIn profile URL -->
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+
               <a
-                href="#"
+                href="https://www.linkedin.com/in/syed-tajuddin-ahmed-rifat/"
                 class="social-icon"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener"
-                ><i data-lucide="linkedin"></i
+              >
+                <i class="fa-brands fa-linkedin"></i
               ></a>
-              <!-- EDIT HERE: Add your email address -->
+
               <a
-                href="mailto:youremail@example.com"
+                href="syedtajuddinrifat@gmail.com"
                 class="social-icon"
                 aria-label="Email"
-                ><i data-lucide="mail"></i
+                ><i class="fa-solid fa-envelope"></i
               ></a>
             </div>
           </div>
@@ -155,39 +158,42 @@
           </div>
 
           <div class="about__grid">
-            <!-- EDIT HERE: Change your about text -->
             <div class="about__text reveal">
               <p>
-                I'm a software engineering learner with a strong focus on web
-                development. My work centers on learning and applying modern
-                frontend technologies — from the fundamentals of HTML, CSS and
-                JavaScript to building responsive, user-friendly interfaces.
+                I'm a software engineering learner with a strong focus on
+                full-stack web development. My journey began with building a
+                solid foundation in HTML, CSS, and JavaScript, and has
+                progressed to creating modern, responsive, and user-friendly web
+                interfaces. I'm currently expanding my skills in backend
+                development, AI, and automation while continuously working on
+                practical projects and improving my problem-solving abilities.
               </p>
               <p>
                 I'm passionate about programming and enjoy building real-world
-                projects that help me apply what I learn in practical ways.
-                Every project is a step toward my goal of becoming a
-                professional full stack developer, and I'm continuously
-                improving my programming and software development skills through
-                consistent practice.
+                projects that turn ideas into practical solutions. Every project
+                gives me an opportunity to learn, experiment, and strengthen my
+                problem-solving abilities. My goal is to grow into a
+                professional full-stack developer, while continuously expanding
+                my skills through hands-on projects, consistent practice, and
+                continuous learning.
               </p>
             </div>
 
             <div class="about__points reveal">
               <div class="point-card">
-                <i data-lucide="code-2"></i>
+                <i class="fa-solid fa-laptop-code"></i>
                 <p>Software engineering learner focused on web development</p>
               </div>
               <div class="point-card">
-                <i data-lucide="layers"></i>
+                <i class="fa-solid fa-code"></i>
                 <p>Learning modern frontend technologies</p>
               </div>
               <div class="point-card">
-                <i data-lucide="hammer"></i>
+                <i class="fa-solid fa-rocket"></i>
                 <p>Interested in building real-world projects</p>
               </div>
               <div class="point-card">
-                <i data-lucide="target"></i>
+                <i class="fa-solid fa-layer-group"></i>
                 <p>
                   Working toward becoming a professional full stack developer
                 </p>
@@ -207,59 +213,140 @@
           </div>
 
           <div class="skills__groups">
+            <!-- Programming & CS Fundamentals -->
             <div class="skills__group reveal">
-              <h3 class="skills__group-title">Current Skills</h3>
-              <!-- EDIT HERE: Add/remove skill cards -->
+              <h3 class="skills__group-title">Programming & CS Fundamentals</h3>
+
               <div class="skills__grid">
                 <div class="skill-card">
-                  <i data-lucide="file-code"></i><span>HTML5</span>
+                  <i class="fa-solid fa-c"></i>
+                  <span>Programming</span>
                 </div>
+
                 <div class="skill-card">
-                  <i data-lucide="paintbrush"></i><span>CSS3</span>
+                  <i class="fa-brands fa-java"></i>
+                  <span>Java</span>
                 </div>
+
                 <div class="skill-card">
-                  <i data-lucide="braces"></i><span>JavaScript</span>
+                  <i class="fa-solid fa-cubes"></i>
+                  <span>Object-Oriented Programming</span>
                 </div>
+
                 <div class="skill-card">
-                  <i data-lucide="wind"></i><span>Tailwind CSS</span>
+                  <i class="fa-solid fa-sitemap"></i>
+                  <span>Data Structures</span>
                 </div>
+
                 <div class="skill-card">
-                  <i data-lucide="git-branch"></i><span>Git</span>
-                </div>
-                <div class="skill-card">
-                  <i data-lucide="github"></i><span>GitHub</span>
-                </div>
-                <div class="skill-card">
-                  <i data-lucide="terminal-square"></i><span>VS Code</span>
+                  <i class="fa-solid fa-diagram-project"></i>
+                  <span>Algorithms</span>
                 </div>
               </div>
             </div>
 
+            <!-- Web Development -->
+            <div class="skills__group reveal">
+              <h3 class="skills__group-title">Web Development</h3>
+
+              <div class="skills__grid">
+                <div class="skill-card">
+                  <i class="fa-brands fa-html5"></i>
+                  <span>HTML5</span>
+                </div>
+
+                <div class="skill-card">
+                  <i class="fa-brands fa-css3-alt"></i>
+                  <span>CSS3</span>
+                </div>
+
+                <div class="skill-card">
+                  <i class="fa-brands fa-js"></i>
+                  <span>JavaScript</span>
+                </div>
+
+                <div class="skill-card">
+                  <i class="fa-solid fa-wind"></i>
+                  <span>Tailwind CSS</span>
+                </div>
+
+                <div class="skill-card">
+                  <i class="fa-brands fa-bootstrap"></i>
+                  <span>Bootstrap</span>
+                </div>
+
+                <div class="skill-card">
+                  <i class="fa-brands fa-react"></i>
+                  <span>React.js</span>
+                </div>
+
+                <div class="skill-card">
+                  <i class="fa-solid fa-mobile-screen-button"></i>
+                  <span>Responsive Web Design</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tools & Version Control -->
+            <div class="skills__group reveal">
+              <h3 class="skills__group-title">Tools & Version Control</h3>
+
+              <div class="skills__grid">
+                <div class="skill-card">
+                  <i class="fa-brands fa-git-alt"></i>
+                  <span>Git</span>
+                </div>
+
+                <div class="skill-card">
+                  <i class="fa-brands fa-github"></i>
+                  <span>GitHub</span>
+                </div>
+
+                <div class="skill-card">
+                  <i class="fa-solid fa-code"></i>
+                  <span>VS Code</span>
+                </div>
+
+                <div class="skill-card">
+                  <i class="fa-solid fa-screwdriver-wrench"></i>
+                  <span>Chrome DevTools</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Currently Learning -->
             <div class="skills__group reveal">
               <h3 class="skills__group-title">Currently Learning</h3>
-              <div class="skills__grid">
-                <div class="skill-card skill-card--learning">
-                  <i data-lucide="atom"></i><span>React.js</span>
-                </div>
-                <div class="skill-card skill-card--learning">
-                  <i data-lucide="sparkles"></i><span>Modern JavaScript</span>
-                </div>
-                <div class="skill-card skill-card--learning">
-                  <i data-lucide="layout-panel-left"></i
-                  ><span>Frontend Development</span>
-                </div>
-              </div>
-            </div>
 
-            <div class="skills__group reveal">
-              <h3 class="skills__group-title">Exploring</h3>
               <div class="skills__grid">
-                <div class="skill-card skill-card--exploring">
-                  <i data-lucide="compass"></i><span>Software Engineering</span>
+                <div class="skill-card skill-card--learning">
+                  <i class="fa-solid fa-server"></i>
+                  <span>Backend Development</span>
                 </div>
-                <div class="skill-card skill-card--exploring">
-                  <i data-lucide="brain-circuit"></i
-                  ><span>AI &amp; Emerging Technologies</span>
+
+                <div class="skill-card skill-card--learning">
+                  <i class="fa-brands fa-node-js"></i>
+                  <span>Node.js</span>
+                </div>
+
+                <div class="skill-card skill-card--learning">
+                  <i class="fa-solid fa-code"></i>
+                  <span>Express.js</span>
+                </div>
+
+                <div class="skill-card skill-card--learning">
+                  <i class="fa-solid fa-plug"></i>
+                  <span>REST APIs</span>
+                </div>
+
+                <div class="skill-card skill-card--learning">
+                  <i class="fa-solid fa-database"></i>
+                  <span>Database</span>
+                </div>
+
+                <div class="skill-card skill-card--learning">
+                  <i class="fa-solid fa-robot"></i>
+                  <span>AI & Automation</span>
                 </div>
               </div>
             </div>
@@ -276,32 +363,33 @@
             <h2 class="section-title">Featured Projects</h2>
           </div>
 
-          <!-- EDIT HERE: Duplicate a .project-card to add a new project -->
           <div class="projects__grid">
             <article class="project-card reveal">
               <span class="project-card__number">01</span>
-              <h3 class="project-card__title">Student Result Checker</h3>
+              <h3 class="project-card__title">Personal Portfolio Website</h3>
               <p class="project-card__desc">
-                A JavaScript-based project for practicing logic, conditions and
-                user interaction.
+                A modern, responsive personal portfolio showcasing my skills,
+                projects, and journey toward becoming a professional Full Stack
+                Developer.
               </p>
               <div class="project-card__tech">
-                <span class="tech-tag">HTML5</span>
-                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">HTML5 </span>
+                <span class="tech-tag">CSS3 </span>
                 <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Font Awesome</span>
+                <span class="tech-tag">Git</span>
+                <span class="tech-tag">GitHub</span>
               </div>
               <div class="project-card__links">
-                <!-- EDIT HERE: Add GitHub repository URL here -->
                 <a
-                  href="#"
+                  href="https://github.com/syedtajuddinahmed/syedrifat-portfolio.git"
                   class="btn btn--outline btn--sm"
                   target="_blank"
                   rel="noopener"
-                  ><i data-lucide="github"></i> Code</a
+                  ><i class="fa-brands fa-github"></i> Code</a
                 >
-                <!-- EDIT HERE: Add live demo URL here -->
                 <a
-                  href="#"
+                  href="https://syedtajuddinahmed.github.io/syedrifat-portfolio/"
                   class="btn btn--ghost btn--sm"
                   target="_blank"
                   rel="noopener"
@@ -312,91 +400,24 @@
 
             <article class="project-card reveal">
               <span class="project-card__number">02</span>
-              <h3 class="project-card__title">Personal Portfolio Website</h3>
+              <h3 class="project-card__title">Snake Game — Python</h3>
               <p class="project-card__desc">
-                A responsive personal portfolio showcasing my development
-                journey and projects.
+                A classic Snake Game built with Python, featuring interactive
+                gameplay, score tracking, and a simple user-friendly interface.
               </p>
               <div class="project-card__tech">
-                <span class="tech-tag">HTML5</span>
-                <span class="tech-tag">CSS3</span>
-                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pygame</span>
+                <span class="tech-tag">Git</span>
+                <span class="tech-tag">GitHub</span>
               </div>
               <div class="project-card__links">
                 <a
-                  href="#"
+                  href="https://github.com/syedtajuddinahmed/snake-game-python"
                   class="btn btn--outline btn--sm"
                   target="_blank"
                   rel="noopener"
-                  ><i data-lucide="github"></i> Code</a
-                >
-                <a
-                  href="#"
-                  class="btn btn--ghost btn--sm"
-                  target="_blank"
-                  rel="noopener"
-                  ><i data-lucide="external-link"></i> Live Demo</a
-                >
-              </div>
-            </article>
-
-            <article class="project-card reveal">
-              <span class="project-card__number">03</span>
-              <h3 class="project-card__title">E-Commerce UI</h3>
-              <p class="project-card__desc">
-                A modern frontend e-commerce interface focused on layout,
-                responsiveness and user experience.
-              </p>
-              <div class="project-card__tech">
-                <span class="tech-tag">HTML5</span>
-                <span class="tech-tag">CSS3</span>
-                <span class="tech-tag">JavaScript</span>
-                <span class="tech-tag">Tailwind CSS</span>
-              </div>
-              <div class="project-card__links">
-                <a
-                  href="#"
-                  class="btn btn--outline btn--sm"
-                  target="_blank"
-                  rel="noopener"
-                  ><i data-lucide="github"></i> Code</a
-                >
-                <a
-                  href="#"
-                  class="btn btn--ghost btn--sm"
-                  target="_blank"
-                  rel="noopener"
-                  ><i data-lucide="external-link"></i> Live Demo</a
-                >
-              </div>
-            </article>
-
-            <article class="project-card reveal">
-              <span class="project-card__number">04</span>
-              <h3 class="project-card__title">JavaScript Mini Projects</h3>
-              <p class="project-card__desc">
-                A collection of small JavaScript projects created to improve
-                programming logic and frontend development skills.
-              </p>
-              <div class="project-card__tech">
-                <span class="tech-tag">HTML5</span>
-                <span class="tech-tag">CSS3</span>
-                <span class="tech-tag">JavaScript</span>
-              </div>
-              <div class="project-card__links">
-                <a
-                  href="#"
-                  class="btn btn--outline btn--sm"
-                  target="_blank"
-                  rel="noopener"
-                  ><i data-lucide="github"></i> Code</a
-                >
-                <a
-                  href="#"
-                  class="btn btn--ghost btn--sm"
-                  target="_blank"
-                  rel="noopener"
-                  ><i data-lucide="external-link"></i> Live Demo</a
+                  ><i class="fa-brands fa-github"></i> Code</a
                 >
               </div>
             </article>
@@ -417,32 +438,56 @@
             <div class="timeline__item reveal">
               <div class="timeline__marker">01</div>
               <div class="timeline__content">
-                <h3>Web Development</h3>
-                <p>HTML → CSS → Responsive Design</p>
+                <h3>Programming Fundamentals</h3>
+                <p>C → Java → OOP → Data Structures & Algorithms</p>
               </div>
             </div>
 
             <div class="timeline__item reveal">
               <div class="timeline__marker">02</div>
               <div class="timeline__content">
-                <h3>JavaScript</h3>
-                <p>Programming logic → DOM → Events → Modern JavaScript</p>
+                <h3>Web Development Fundamentals</h3>
+                <p>HTML5 → CSS3 → Responsive Web Design → Git & GitHub</p>
               </div>
             </div>
 
             <div class="timeline__item reveal">
               <div class="timeline__marker">03</div>
               <div class="timeline__content">
-                <h3>Frontend Development</h3>
-                <p>Tailwind CSS → Modern UI → Responsive Interfaces</p>
+                <h3>Modern Frontend Development</h3>
+                <p>
+                  Tailwind CSS → Bootstrap → React.js → Responsive Interfaces
+                </p>
               </div>
             </div>
 
             <div class="timeline__item reveal">
               <div class="timeline__marker">04</div>
               <div class="timeline__content">
-                <h3>React.js</h3>
-                <p>Components → State → Props → Modern React Development</p>
+                <h3>JavaScript & Modern Frontend</h3>
+                <p>Programming Logic → DOM → Events → Modern JavaScript</p>
+              </div>
+            </div>
+
+            <div class="timeline__item timeline__item--current reveal">
+              <div class="timeline__marker">05</div>
+              <div class="timeline__content">
+                <h3>
+                  Backend Development
+                  <span class="tag-current">Currently Learning</span>
+                </h3>
+                <p>Node.js → Express.js → REST APIs → Databases</p>
+              </div>
+            </div>
+
+            <div class="timeline__item timeline__item--current reveal">
+              <div class="timeline__marker">06</div>
+              <div class="timeline__content">
+                <h3>
+                  AI & Automation
+                  <span class="tag-current">Currently Learning</span>
+                </h3>
+                <p>AI Tools → Automation Workflows → Practical AI Solutions</p>
               </div>
             </div>
 
@@ -452,12 +497,12 @@
               </div>
               <div class="timeline__content">
                 <h3>
-                  Full Stack Development
+                  Professional Full Stack Developer
                   <span class="tag-future">Future Goal</span>
                 </h3>
                 <p>
-                  Backend development → APIs → Databases → Full Stack
-                  Applications
+                  Building scalable, user-focused applications with modern
+                  frontend, backend, and AI technologies.
                 </p>
               </div>
             </div>
@@ -471,22 +516,61 @@
       <section id="education" class="section">
         <div class="container">
           <div class="section-head reveal">
-            <h2 class="section-title">Education</h2>
+            <h2 class="section-title">Education & Training</h2>
           </div>
+          <div class="education-list">
+            <!-- University -->
+            <div class="education-card reveal">
+              <div class="education-card__icon">
+                <a
+                  href="https://eub.edu.bd/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./assets/university.png"
+                    alt="European University of Bangladesh Logo"
+                  />
+                </a>
+              </div>
 
-          <!-- EDIT HERE: Update your education details -->
-          <div class="education-card reveal">
-            <div class="education-card__icon">
-              <i data-lucide="graduation-cap"></i>
+              <div>
+                <h3 class="education-card__degree">
+                  Bachelor of Science in Computer Science & Engineering
+                </h3>
+
+                <p class="education-card__school">
+                  European University of Bangladesh
+                </p>
+
+                <p class="education-card__meta">Currently Studying</p>
+              </div>
             </div>
-            <div>
-              <h3 class="education-card__degree">
-                Computer Science / Software Development
-              </h3>
-              <p class="education-card__school">Shonargoan University</p>
-              <p class="education-card__meta">
-                <!-- EDIT HERE: Add year/duration -->
-              </p>
+
+            <!-- Creative IT Institute -->
+            <div class="education-card reveal">
+              <div class="education-card__icon">
+                <a
+                  href="https://www.creativeitinstitute.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./assets/training.png"
+                    alt="Creative IT Institute Logo"
+                  />
+                </a>
+              </div>
+
+              <div>
+                <h3 class="education-card__degree">
+                  Full Stack Development & AI Automation
+                </h3>
+
+                <p class="education-card__school">Creative IT Institute</p>
+
+                <p class="education-card__meta">Professional Training</p>
+              </div>
             </div>
           </div>
         </div>
@@ -504,9 +588,12 @@
           <div class="activity reveal">
             <div class="activity__cta">
               <p>Follow my day-to-day work and contributions on GitHub.</p>
-              <!-- EDIT HERE: Add your GitHub profile URL -->
-              <a href="#" class="btn btn--accent" target="_blank" rel="noopener"
-                ><i data-lucide="github"></i> View GitHub Profile</a
+              <a
+                href="https://github.com/syedtajuddinahmed"
+                class="btn btn--accent"
+                target="_blank"
+                rel="noopener"
+                ><i class="fa-brands fa-github"></i> View GitHub Profile</a
               >
             </div>
 
@@ -535,23 +622,27 @@
             </p>
 
             <div class="contact__info">
-              <!-- EDIT HERE: Update contact details -->
-              <a href="mailto:youremail@example.com" class="contact__info-item"
-                ><i data-lucide="mail"></i> youremail@example.com</a
-              >
               <a
-                href="#"
+                href="syedtajuddinrifat@gmail.com 
+"
+                class="contact__info-item"
+                ><i class="fa-solid fa-envelope"></i>syedtajuddinrifat@gmail.com
+              </a>
+              <a
+                href="https://github.com/syedtajuddinahmed"
                 class="contact__info-item"
                 target="_blank"
                 rel="noopener"
-                ><i data-lucide="github"></i> github.com/yourusername</a
+                ><i class="fa-brands fa-github"></i
+                >github.com/syedtajuddinahmed</a
               >
               <a
-                href="#"
+                href="https://www.linkedin.com/in/syed-tajuddin-ahmed-rifat/"
                 class="contact__info-item"
                 target="_blank"
                 rel="noopener"
-                ><i data-lucide="linkedin"></i> linkedin.com/in/yourusername</a
+                ><i class="fa-brands fa-linkedin"></i
+                >linkedin.com/in/syed-tajuddin-ahmed-rifat/</a
               >
             </div>
           </div>
@@ -605,33 +696,31 @@
         </div>
 
         <div class="footer__socials">
-          <!-- EDIT HERE: Match these to the links used in the hero/contact sections -->
           <a
-            href="#"
+            href="https://github.com/syedtajuddinahmed"
             class="social-icon"
             aria-label="GitHub"
             target="_blank"
             rel="noopener"
-            ><i data-lucide="github"></i
+            ><i class="fa-brands fa-github"></i
           ></a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/syed-tajuddin-ahmed-rifat/"
             class="social-icon"
             aria-label="LinkedIn"
             target="_blank"
             rel="noopener"
-            ><i data-lucide="linkedin"></i
+            ><i class="fa-brands fa-linkedin"></i
           ></a>
           <a
-            href="mailto:youremail@example.com"
+            href="syedtajuddinrifat@gmail.com"
             class="social-icon"
             aria-label="Email"
-            ><i data-lucide="mail"></i
+            ><i class="fa-solid fa-envelope"></i
           ></a>
         </div>
       </div>
       <div class="container">
-        <!-- EDIT HERE: Change the copyright year -->
         <p class="footer__copyright">© 2026 SyedRifat. All rights reserved.</p>
       </div>
     </footer>
